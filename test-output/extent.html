@@ -1,0 +1,960 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Nop Commerce</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 11, 2023 11:29:59 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyJobSearchResultUsingDifferentDataSet</p>
+            <p class="text-sm">
+              <span>11:30:10</span> / <span>00:00:05:814</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyJobSearchResultUsingDifferentDataSet</h5>
+<span class='badge badge-success'>05.11.2023 11:30:10</span>
+<span class='badge badge-danger'>05.11.2023 11:30:15</span>
+<span class='badge badge-default'>00:00:05:814</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:10</td>
+        <td>
+          Entered location is  [[ChromeDriver: chrome on WINDOWS (fe706cc0974068cf99c55fc8ee71dac9)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:11</td>
+        <td>
+          Distance should be [[ChromeDriver: chrome on WINDOWS (fe706cc0974068cf99c55fc8ee71dac9)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:11</td>
+        <td>
+          click on more search link [[ChromeDriver: chrome on WINDOWS (fe706cc0974068cf99c55fc8ee71dac9)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:11</td>
+        <td>
+          Min salary 35000in min salary field [[ChromeDriver: chrome on WINDOWS (fe706cc0974068cf99c55fc8ee71dac9)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:11</td>
+        <td>
+          Maximum salary50000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:11</td>
+        <td>
+          Salary type[[ChromeDriver: chrome on WINDOWS (fe706cc0974068cf99c55fc8ee71dac9)] -> id: salarytype]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:11</td>
+        <td>
+          Job type from drop down[[ChromeDriver: chrome on WINDOWS (fe706cc0974068cf99c55fc8ee71dac9)] -> id: tempperm]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:12</td>
+        <td>
+          click on find job button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:15</td>
+        <td>
+          The result is Permanent Tester jobs in London
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:15</td>
+        <td>
+          TEST CASE PASSED IS verifyJobSearchResultUsingDifferentDataSet
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyJobSearchResultUsingDifferentDataSet</p>
+            <p class="text-sm">
+              <span>11:30:20</span> / <span>00:00:08:630</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyJobSearchResultUsingDifferentDataSet</h5>
+<span class='badge badge-success'>05.11.2023 11:30:20</span>
+<span class='badge badge-danger'>05.11.2023 11:30:28</span>
+<span class='badge badge-default'>00:00:08:630</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:21</td>
+        <td>
+          Entered location is  [[ChromeDriver: chrome on WINDOWS (ca6e32f4d36eef72f39bffdb4fa051ee)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:21</td>
+        <td>
+          Distance should be [[ChromeDriver: chrome on WINDOWS (ca6e32f4d36eef72f39bffdb4fa051ee)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:21</td>
+        <td>
+          click on more search link [[ChromeDriver: chrome on WINDOWS (ca6e32f4d36eef72f39bffdb4fa051ee)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:21</td>
+        <td>
+          Min salary 20000in min salary field [[ChromeDriver: chrome on WINDOWS (ca6e32f4d36eef72f39bffdb4fa051ee)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:22</td>
+        <td>
+          Maximum salary35000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:22</td>
+        <td>
+          Salary type[[ChromeDriver: chrome on WINDOWS (ca6e32f4d36eef72f39bffdb4fa051ee)] -> id: salarytype]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:22</td>
+        <td>
+          Job type from drop down[[ChromeDriver: chrome on WINDOWS (ca6e32f4d36eef72f39bffdb4fa051ee)] -> id: tempperm]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:22</td>
+        <td>
+          click on find job button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:28</td>
+        <td>
+          The result is Permanent Teaching Assistant jobs in London
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:28</td>
+        <td>
+          TEST CASE PASSED IS verifyJobSearchResultUsingDifferentDataSet
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyJobSearchResultUsingDifferentDataSet</p>
+            <p class="text-sm">
+              <span>11:30:33</span> / <span>00:00:06:521</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyJobSearchResultUsingDifferentDataSet</h5>
+<span class='badge badge-success'>05.11.2023 11:30:33</span>
+<span class='badge badge-danger'>05.11.2023 11:30:40</span>
+<span class='badge badge-default'>00:00:06:521</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:34</td>
+        <td>
+          Entered location is  [[ChromeDriver: chrome on WINDOWS (e2aaab3a0c7fe9c3526eb85d202f815e)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:35</td>
+        <td>
+          Distance should be [[ChromeDriver: chrome on WINDOWS (e2aaab3a0c7fe9c3526eb85d202f815e)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:35</td>
+        <td>
+          click on more search link [[ChromeDriver: chrome on WINDOWS (e2aaab3a0c7fe9c3526eb85d202f815e)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:35</td>
+        <td>
+          Min salary 35000in min salary field [[ChromeDriver: chrome on WINDOWS (e2aaab3a0c7fe9c3526eb85d202f815e)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:35</td>
+        <td>
+          Maximum salary40000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:35</td>
+        <td>
+          Salary type[[ChromeDriver: chrome on WINDOWS (e2aaab3a0c7fe9c3526eb85d202f815e)] -> id: salarytype]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:35</td>
+        <td>
+          Job type from drop down[[ChromeDriver: chrome on WINDOWS (e2aaab3a0c7fe9c3526eb85d202f815e)] -> id: tempperm]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:35</td>
+        <td>
+          click on find job button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:40</td>
+        <td>
+          The result is Permanent Teacher jobs in London
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:40</td>
+        <td>
+          TEST CASE PASSED IS verifyJobSearchResultUsingDifferentDataSet
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyJobSearchResultUsingDifferentDataSet</p>
+            <p class="text-sm">
+              <span>11:30:46</span> / <span>00:00:06:202</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyJobSearchResultUsingDifferentDataSet</h5>
+<span class='badge badge-success'>05.11.2023 11:30:46</span>
+<span class='badge badge-danger'>05.11.2023 11:30:52</span>
+<span class='badge badge-default'>00:00:06:202</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:47</td>
+        <td>
+          Entered location is  [[ChromeDriver: chrome on WINDOWS (45d2809ec0929ede76cf019671c7a6ee)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:47</td>
+        <td>
+          Distance should be [[ChromeDriver: chrome on WINDOWS (45d2809ec0929ede76cf019671c7a6ee)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:47</td>
+        <td>
+          click on more search link [[ChromeDriver: chrome on WINDOWS (45d2809ec0929ede76cf019671c7a6ee)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:47</td>
+        <td>
+          Min salary 18000in min salary field [[ChromeDriver: chrome on WINDOWS (45d2809ec0929ede76cf019671c7a6ee)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:47</td>
+        <td>
+          Maximum salary22000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:48</td>
+        <td>
+          Salary type[[ChromeDriver: chrome on WINDOWS (45d2809ec0929ede76cf019671c7a6ee)] -> id: salarytype]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:48</td>
+        <td>
+          Job type from drop down[[ChromeDriver: chrome on WINDOWS (45d2809ec0929ede76cf019671c7a6ee)] -> id: tempperm]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:48</td>
+        <td>
+          click on find job button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:52</td>
+        <td>
+          The result is Permanent Retail Assistant jobs in London
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:52</td>
+        <td>
+          TEST CASE PASSED IS verifyJobSearchResultUsingDifferentDataSet
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyJobSearchResultUsingDifferentDataSet</p>
+            <p class="text-sm">
+              <span>11:30:58</span> / <span>00:00:10:856</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyJobSearchResultUsingDifferentDataSet</h5>
+<span class='badge badge-success'>05.11.2023 11:30:58</span>
+<span class='badge badge-danger'>05.11.2023 11:31:09</span>
+<span class='badge badge-default'>00:00:10:856</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:59</td>
+        <td>
+          Entered location is  [[ChromeDriver: chrome on WINDOWS (149929225de501311adc06df2e555fb4)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:59</td>
+        <td>
+          Distance should be [[ChromeDriver: chrome on WINDOWS (149929225de501311adc06df2e555fb4)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:30:59</td>
+        <td>
+          click on more search link [[ChromeDriver: chrome on WINDOWS (149929225de501311adc06df2e555fb4)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:00</td>
+        <td>
+          Min salary 25000in min salary field [[ChromeDriver: chrome on WINDOWS (149929225de501311adc06df2e555fb4)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:00</td>
+        <td>
+          Maximum salary35000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:00</td>
+        <td>
+          Salary type[[ChromeDriver: chrome on WINDOWS (149929225de501311adc06df2e555fb4)] -> id: salarytype]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:00</td>
+        <td>
+          Job type from drop down[[ChromeDriver: chrome on WINDOWS (149929225de501311adc06df2e555fb4)] -> id: tempperm]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:00</td>
+        <td>
+          click on find job button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:09</td>
+        <td>
+          The result is Permanent Dentist Nurse jobs in London
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:09</td>
+        <td>
+          TEST CASE PASSED IS verifyJobSearchResultUsingDifferentDataSet
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyJobSearchResultUsingDifferentDataSet</p>
+            <p class="text-sm">
+              <span>11:31:12</span> / <span>00:00:08:663</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyJobSearchResultUsingDifferentDataSet</h5>
+<span class='badge badge-success'>05.11.2023 11:31:12</span>
+<span class='badge badge-danger'>05.11.2023 11:31:21</span>
+<span class='badge badge-default'>00:00:08:663</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:14</td>
+        <td>
+          Entered location is  [[ChromeDriver: chrome on WINDOWS (9866057c4e8d69b2898b2f5a402c2a8c)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:14</td>
+        <td>
+          Distance should be [[ChromeDriver: chrome on WINDOWS (9866057c4e8d69b2898b2f5a402c2a8c)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:14</td>
+        <td>
+          click on more search link [[ChromeDriver: chrome on WINDOWS (9866057c4e8d69b2898b2f5a402c2a8c)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:14</td>
+        <td>
+          Min salary 20000in min salary field [[ChromeDriver: chrome on WINDOWS (9866057c4e8d69b2898b2f5a402c2a8c)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:14</td>
+        <td>
+          Maximum salary25000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:14</td>
+        <td>
+          Salary type[[ChromeDriver: chrome on WINDOWS (9866057c4e8d69b2898b2f5a402c2a8c)] -> id: salarytype]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:15</td>
+        <td>
+          Job type from drop down[[ChromeDriver: chrome on WINDOWS (9866057c4e8d69b2898b2f5a402c2a8c)] -> id: tempperm]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:15</td>
+        <td>
+          click on find job button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:21</td>
+        <td>
+          The result is Permanent Receptionist jobs in London
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:21</td>
+        <td>
+          TEST CASE PASSED IS verifyJobSearchResultUsingDifferentDataSet
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">verifyJobSearchResultUsingDifferentDataSet</p>
+            <p class="text-sm">
+              <span>11:31:25</span> / <span>00:00:08:668</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verifyJobSearchResultUsingDifferentDataSet</h5>
+<span class='badge badge-success'>05.11.2023 11:31:25</span>
+<span class='badge badge-danger'>05.11.2023 11:31:34</span>
+<span class='badge badge-default'>00:00:08:668</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:26</td>
+        <td>
+          Entered location is  [[ChromeDriver: chrome on WINDOWS (b7bf0d0a95867d6bae2c17d0f7cadc53)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:27</td>
+        <td>
+          Distance should be [[ChromeDriver: chrome on WINDOWS (b7bf0d0a95867d6bae2c17d0f7cadc53)] -> id: location]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:27</td>
+        <td>
+          click on more search link [[ChromeDriver: chrome on WINDOWS (b7bf0d0a95867d6bae2c17d0f7cadc53)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:27</td>
+        <td>
+          Min salary 25000in min salary field [[ChromeDriver: chrome on WINDOWS (b7bf0d0a95867d6bae2c17d0f7cadc53)] -> id: toggle-hp-search]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:27</td>
+        <td>
+          Maximum salary35000
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:27</td>
+        <td>
+          Salary type[[ChromeDriver: chrome on WINDOWS (b7bf0d0a95867d6bae2c17d0f7cadc53)] -> id: salarytype]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:28</td>
+        <td>
+          Job type from drop down[[ChromeDriver: chrome on WINDOWS (b7bf0d0a95867d6bae2c17d0f7cadc53)] -> id: tempperm]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:28</td>
+        <td>
+          click on find job button
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:34</td>
+        <td>
+          The result is Permanent Nurse jobs in London
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:31:34</td>
+        <td>
+          TEST CASE PASSED IS verifyJobSearchResultUsingDifferentDataSet
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 11, 2023 11:29:59 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 11, 2023 11:31:35 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>7</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>70</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"verifyJobSearchResultUsingDifferentDataSet":5.814,"verifyJobSearchResultUsingDifferentDataSet":8.63,"verifyJobSearchResultUsingDifferentDataSet":6.521,"verifyJobSearchResultUsingDifferentDataSet":6.202,"verifyJobSearchResultUsingDifferentDataSet":10.856,"verifyJobSearchResultUsingDifferentDataSet":8.663,"verifyJobSearchResultUsingDifferentDataSet":8.668
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>User Name</td>
+<td>nik_7</td>
+</tr>
+<tr>
+<td>Time Zone</td>
+<td>Europe/London</td>
+</tr>
+<tr>
+<td>Machine</td>
+<td>Windows 1064 Bit</td>
+</tr>
+<tr>
+<td>Selenium</td>
+<td>3.141.59</td>
+</tr>
+<tr>
+<td>Maven</td>
+<td>3.5.9</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>1.8.0_151</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 70,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
